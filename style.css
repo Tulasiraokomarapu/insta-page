@@ -1,0 +1,104 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.headNav {
+    word-wrap: break-word;
+    height: 54px;
+    position: sticky;
+    top: 0px;
+    width: 65%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    text-align: center;
+    padding: 5px 10px;
+    border: none;
+}
+
+.mainBody {
+    width: 65%;
+    margin: 0px auto;
+    word-wrap: break-word;
+    display: flex;
+}
+
+.pic {
+    padding-top: 30px;
+    width: 40%;
+    text-align: center;
+}
+
+.profile {
+    width: 65%;
+    padding-top: 30px;
+}
+
+.btn {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    background-color: #0095f6;
+    padding: 3px 18px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.follow {
+    padding: 15px 0px;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Rubik', sans-serif
+}
+
+a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: #00376b;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+}
+
+.catpics {
+    width: 65%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.cats {
+    border: 2px solid #8e8e8e;
+    border-radius: 50%;
+}
+
+h5 {
+    font-family: 'Rubik', sans-serif;
+}
+
+.gallery {
+    width: 65%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding-top: 15px;
+}
+
+.spann {
+    margin-left: 15px;
+    cursor: pointer;
+}
